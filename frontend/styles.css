@@ -118,4 +118,11 @@ body {
 .result-value { color: #111; }
 
 .hidden { display: none; }
-
+.main-title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #fff;  /* changed to white */
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5); /* adds contrast for readability */
+}
