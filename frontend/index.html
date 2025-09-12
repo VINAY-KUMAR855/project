@@ -7,45 +7,49 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main class="app">
-    <section class="card">
-      <h1 class="title">Upload or Drag & Drop Image</h1>
+  	 <main class="app">
+	  <!-- Website Title -->
+	  <h1 class="main-title">Breed Recognition for Cattle and Buffaloes of India</h1>
 
-      <!-- Drop zone -->
-      <div id="dropzone" class="dropzone" tabindex="0" aria-label="Image dropzone">
-        <div class="dz-inner">
-          <p class="dz-text">Drop image here</p>
-          <p class="dz-sep">— or —</p>
-          <label class="btn" for="file-input">Choose Image</label>
-          <input id="file-input" type="file" accept="image/*" hidden />
-        </div>
-      </div>
+	  <section class="card">
+	    <h2 class="title">Upload or Drag & Drop Image</h2>
 
-      <!-- Preview -->
-      <div id="preview" class="preview hidden">
-        <img id="preview-img" alt="Selected preview" />
-        <button id="clear-btn" class="btn btn-ghost" type="button">Clear</button>
-      </div>
+	    <!-- Drop zone -->
+	    <div id="dropzone" class="dropzone" tabindex="0" aria-label="Image dropzone">
+	      <div class="dz-inner">
+		<p class="dz-text">Drop image here</p>
+		<p class="dz-sep">— or —</p>
+		<label class="btn" for="file-input">Choose Image</label>
+		<input id="file-input" type="file" accept="image/*" hidden />
+	      </div>
+	    </div>
 
-      <!-- Action -->
-      <button id="predict-btn" class="btn btn-primary" type="button" disabled>Predict Breed</button>
+	    <!-- Preview -->
+	    <div id="preview" class="preview hidden">
+	      <img id="preview-img" alt="Selected preview" />
+	      <button id="clear-btn" class="btn btn-ghost" type="button">Clear</button>
+	    </div>
 
-      <!-- Progress / status -->
-      <div id="status" class="status" role="status" aria-live="polite"></div>
+	    <!-- Action -->
+	    <button id="predict-btn" class="btn btn-primary" type="button" disabled>Predict Breed</button>
 
-      <!-- Result -->
-      <div id="result" class="result hidden">
-        <div class="result-row">
-          <span class="result-label">Breed</span>
-          <span id="breed" class="result-value">—</span>
-        </div>
-        <div class="result-row">
-          <span class="result-label">Accuracy</span>
-          <span id="accuracy" class="result-value">—</span>
-        </div>
-      </div>
-    </section>
-  </main>
+	    <!-- Progress / status -->
+	    <div id="status" class="status" role="status" aria-live="polite"></div>
+
+	    <!-- Result -->
+	    <div id="result" class="result hidden">
+	      <div class="result-row">
+		<span class="result-label">Breed</span>
+		<span id="breed" class="result-value">—</span>
+	      </div>
+	      <div class="result-row">
+		<span class="result-label">Accuracy</span>
+		<span id="accuracy" class="result-value">—</span>
+	      </div>
+	    </div>
+	  </section>
+	</main>
+
 
   <script src="app.js"></script>
 </body>
