@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+tensorflow
+pillow
+python-multipart
+databases
+sqlite3-binary
+numpy
+PIL
+os
+
