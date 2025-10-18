@@ -2,4 +2,4 @@
 
 ![Demo Screenshot](image.png)
 
-I did this project in B.Tech 1st year.
+I did this project in B.Tech 1st year, 1st semister.
